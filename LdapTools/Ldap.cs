@@ -7,7 +7,7 @@ namespace LdapTools
 {
     internal class Ldap
     {
-        public List<string> GetKerberoastableUsers()
+        public List<string> GetAsrepRoastUsers()
         {
             List<string> users = new List<string>();
             DirectoryEntry myLdapCon = CreateDirectoryEntry();

@@ -20,10 +20,10 @@ namespace LdapTools
         private void buttonLdapUsers_Click(object sender, EventArgs e)
         {
             Ldap ldap = new Ldap();
-            List<string> users = ldap.GetKerberoastableUsers();
+            List<string> users = ldap.GetAsrepRoastUsers();
             foreach (string user in users)
             {
-                listBoxKerberoastableUsers.Items.Add(user);
+                listBoxAsrepRoastUsers.Items.Add(user);
             }
         }
     }
