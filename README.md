@@ -1,4 +1,4 @@
 # LdapTools
 
 Supports:
-[+] Finding Kerberoastable Users
+[+] Finding ASREPRoastable Users
